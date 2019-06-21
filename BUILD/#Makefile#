@@ -1,0 +1,4 @@
+PHONY: install
+
+install: apache-scitokens2/src/scitoken.c
+	apt-get install apache2-dev && apxs -i -a -c apache-scitokens2/src/scitoken.c -lSciTokens
