@@ -1,6 +1,0 @@
-.PHONY: install
-
-install: apache-scitokens/src/scitoken.c
-	ls
-	cd ~/rpmbuild/BUILD/apache-scitokens;/
-	make install
